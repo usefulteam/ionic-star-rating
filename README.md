@@ -26,8 +26,8 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 
 ```
 <ionic-star-rating #rating
-  activeIcon = "ios-star"
-  defaultIcon = "ios-star-outline"
+  activeIcon = "star"
+  defaultIcon = "star-outline"
   activeColor = "#488aff" 
   defaultColor = "#f4f4f4"
   readonly="false"
@@ -42,8 +42,8 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 <form [formGroup]="customForm">
 
   <ionic-star-rating #rating 
-    activeIcon = "ios-star"
-    defaultIcon = "ios-star-outline"
+    activeIcon = "star"
+    defaultIcon = "star-outline"
     activeColor = "#d1301a"
     defaultColor = "#aaaaaa"
     readonly = "false"
@@ -55,9 +55,9 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 ```
 ## Options (all are optional, default values are set in the component itself)
 
-* activeIcon (string) : can specify the icon name for active rating (icon name should be from the https://ionicframework.com/docs/ionicons/  ,  default is set to 'ios-star');
-* defaultIcon (string): can specify the default icon name (icon name should be from the https://ionicframework.com/docs/ionicons/  , default is set to 'ios-star-outline');
-* halfIcon (string) : can specify the icon name for active half rating (icon name should be from the https://ionicframework.com/docs/ionicons/  ,  default is set to 'ios-star-half');
+* activeIcon (string) : can specify the icon name for active rating (icon name should be from the https://ionicframework.com/docs/ionicons/  ,  default is set to 'star');
+* defaultIcon (string): can specify the default icon name (icon name should be from the https://ionicframework.com/docs/ionicons/  , default is set to 'star-outline');
+* halfIcon (string) : can specify the icon name for active half rating (icon name should be from the https://ionicframework.com/docs/ionicons/  ,  default is set to 'star-half');
 * halfStar (string) : to support half star rating set this to 'true', default is set to 'false'. The rating value then steps by 0.5 instead of 1. Single tap on defaultIcon changes it to halfIcon , tap on halfIcon changes it to activeIcon and tap on activeIcon changes it to halfIcon again.
 * maxRating (number) : can specify the total number of icons to be displayed, default is set to 5. You may change this to 10 star rating component or 7 star rating component depending on your requirement.
 * activeColor (string): can specify the active color for the active rating icon (should be a valid color code, default is set to '#488aff')
@@ -74,8 +74,8 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 
 ```
   <ionic-star-rating #rating
-    activeIcon = "ios-star"
-    defaultIcon = "ios-star-outline"
+    activeIcon = "star"
+    defaultIcon = "star-outline"
     activeColor = "#ff0000"
     defaultColor = "#aaaaaa"
     readonly = "false"
@@ -84,8 +84,8 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
   </ionic-star-rating>
 
   <ionic-star-rating #rating2
-    activeIcon = "ios-star"
-    defaultIcon = "ios-star-outline"
+    activeIcon = "star"
+    defaultIcon = "star-outline"
     activeColor = "#d1301a"
     defaultColor = "#aaaaaa"
     readonly = "false"
