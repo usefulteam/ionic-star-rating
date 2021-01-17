@@ -60,12 +60,12 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 * halfIcon (string) : can specify the icon name for active half rating (icon name should be from the https://ionicframework.com/docs/ionicons/  ,  default is set to "star-half");
 * halfStar (string) : to support half star rating set this to 'true', default is set to 'false'. The rating value then steps by 0.5 instead of 1. Single tap on defaultIcon changes it to halfIcon , tap on halfIcon changes it to activeIcon and tap on activeIcon changes it to halfIcon again.
 * maxRating (number) : can specify the total number of icons to be displayed, default is set to 5. You may change this to 10 star rating component or 7 star rating component depending on your requirement.
-* activeColor (string): can specify the active color for the active rating icon (should be a valid color code, default is set to '#488aff')
-* defaultColor (string): can specify the default color for the rating icon (should be a valid color code, default is set to '#f4f4f4')
+* activeColor (string): can specify the active color for the active rating icon (should be a valid color code, default is set to "#488aff")
+* defaultColor (string): can specify the default color for the rating icon (should be a valid color code, default is set to "#f4f4f4")
 * readonly (string): default is set to "false", change to "true" and make it read only. End user won't be able to change the rating then.
 * rating (string or number): default is set to 3. input can be of type **number** or **string** (*assign any number from 1 to 5, floating numbers are also accepted, Math.round(parseFloat(rating) is done for all inputs*). 
-* fontSize (string) : can specify the font-size for the icon ( should be a valid string as used in css, a number followed by letters 'px', default is set to '28px'). 
-* ratingChanged (funtion) : used to handle the rating change in the parent component and do your stuff
+* fontSize (string) : can specify the font-size for the icon ( should be a valid string as used in css, a number followed by letters "px", default is set to "28px"). 
+* ratingChanged (function) : used to handle the rating change in the parent component and do your stuff
 * formControlName : only if you are using the ionic-star-rating component inside the `<form>` component  
 
 ## Multiple usage of the component in same parent page
