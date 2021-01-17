@@ -17,9 +17,7 @@ You can use it multiple times in a single page/multiple pages and get the change
 
 You can also use it inside the `<form>` component (multiple use inside `<form>` is also supported).
 
-# How to use
-
-## Step-1
+## How to use
 
 ### Install it
 `npm install https://github.com/usefulteam/ionic-star-rating/tarball/master`
