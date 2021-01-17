@@ -20,7 +20,7 @@ You can also use it inside the `<form>` component (multiple use inside `<form>` 
 ## How to use
 
 ### Install it
-`npm install https://github.com/usefulteam/ionic-star-rating/tarball/master`
+`npm install https://github.com/usefulteam/ionic-star-rating/tarball/main`
 
 ### add the ionic-star-rating component in your page.html (parent component) as follows
 
