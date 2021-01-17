@@ -1,6 +1,6 @@
 # Ionic Star Rating
 
-This library was a copy of https://github.com/JeongJun-Lee/ionic5-star-rating which was forked from    . Thanks for them and their community.
+This library was a copy of https://github.com/JeongJun-Lee/ionic5-star-rating which was forked from https://github.com/melwinVincent/ionic4-star-rating . Thanks for them and their community.
 
 This library is intended to work with the latest version of Ionic.
 
